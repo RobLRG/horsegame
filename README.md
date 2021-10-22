@@ -1,2 +1,2 @@
 # horsegame
-horsegame with prompts
+horsegame
