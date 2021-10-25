@@ -62,14 +62,14 @@ for(let h=0;h<numHorses;h++)  //for loop repeating the next steps using the numH
 {
     horses[h] = document.createElement("div")   //creates the horses
     horses[h].classList.add("horse")            //adds the horse class to them so the style will apply
-    horses[h].style.top = 50 + h*18 + "px"      //sets the y position with h*18 being the amount of pixels between them
+    horses[h].style.top = 50 + h*18 + "px"      //sets the y position of the horses with 50 + h*18 being the amount of pixels between them
     horses[h].style.backgroundColor=colors[h]   //sets the colour of the horses using the colors array created earlier
     horseX[h]=0                                 //sets the start position of each horse to 0
     document.body.appendChild(horses[h])        //adds div element to html doc
 
 }
 
-const finish=500 //x pos of finish line
+const finish=500 //x position of finish line
 
 //functions ---------------------------------------------------
 
